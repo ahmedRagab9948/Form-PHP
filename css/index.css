@@ -1,0 +1,46 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.frist-form {
+  /* margin-top: 70px; */
+  width: 100%;
+}
+
+.frist-form .container {
+  width: 30%;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  z-index: 1;
+}
+.frist-form .container h1 {
+  color: #007bff;
+}
+.frist-form .container .form-group {
+  padding: 0;
+}
+.frist-form .container form button {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .frist-form .container {
+    width: 100%;
+  }
+}
